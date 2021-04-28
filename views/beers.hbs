@@ -1,11 +1,16 @@
+<link rel="stylesheet" href="stylesheets/styles.css">
+
 {{#each beersFromApi}}
 
-<div>
-<h3>Name: {{this.name}}</h3>
-
-<h4>Description: {{this.description}}</h4>
-<p>Tagline: {{this.tagline}}</p>
-<img src = "{{this.image_url}}" alt= "beer image">
+<div class="beers_list">
+    <h2>Name</h2> 
+    <p class="beer_name">{{this.name}}</p>
+    <h3>Description</h3>
+    <p class="description">{{this.description}}</p>
+    <h3>Tagline</h3>
+    <p>{{this.tagline}}</p> 
+    <img src = "{{this.image_url}}" alt= "beer image">
+    <hr>
 </div>
 
 {{/each}}

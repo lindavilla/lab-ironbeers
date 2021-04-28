@@ -1,21 +1,90 @@
+body {
+    background-color: azure;
+}
+
 nav {
     background-color:#2081c3;
-    text-decoration: none;
     display: flex;
     flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    padding: 10px 10px;
+    border-radius: 10px;
     
 };
 
 nav li {
     padding: 40px;
+    
+    
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 24px;
+   
 }
 
 button {
     background-color: #2081c3;
+    margin-bottom: 15px;
+    margin-right: 60px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    
+}
+
+button a {
+    font-size: 20px;
+    text-decoration: none;
 }
 
 img {
-    width: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.beer_homePage {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random_beer {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+
+.random_beer img {
+    width: 100px;
+    padding-bottom: 10px;
+    padding-top: 50px;
+}
+
+.random_beer p {
+    width: 600px;
+    text-align: center;
+}
+
+.aligned_titles {
+    padding-left: 45px;
+}
+
+.description {
+    width: 600px;
+}
+
+.beer_name {
+    font-size: 24px;
+}
+
+.beers_list img {
+    width: 150px;
 }
 
 /*
